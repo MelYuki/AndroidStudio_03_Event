@@ -1,0 +1,21 @@
+<resources>
+
+<!--    Bonne pratique de naming:
+    String:
+        name = "type_categorie..."
+    id:
+        id = "type_lieu_objectif" -->
+
+    <string name="app_name">Demo03_event</string>
+    <string name="msg_main_toast_form">Numéro: {0}</string>
+    <string name="msg_main_toast_form2">Numéro: %s</string>
+    <string name="title_app">Demo 03 - Event</string>
+    <string name="btn_msg_1">Message 1</string>
+    <string name="btn_msg_2">Message 2</string>
+    <string name="btn_msg_3">Message 3</string>
+    <string name="msg_init">Message de base:</string>
+    <string name="title_demo_et">Saisie User</string>
+    <string name="btn_form_valid">Valider</string>
+    <string name="et_main_hint">0123456789</string>
+
+</resources>

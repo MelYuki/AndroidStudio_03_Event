@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_app"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_main_message_popup_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_msg_1" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/btn_main_message_popup_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_msg_2"
+            android:enabled="false"/>
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/btn_main_message_popup_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_msg_3" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_main_message_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_init"
+        android:textSize="18sp"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_demo_et"
+        android:textSize="25sp"
+        android:layout_marginStart="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_main_form_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:imeOptions="actionDone"
+            android:textColor="@color/red"
+            android:hint="@string/et_main_hint"
+            android:backgroundTint="@color/red"/>
+
+        <Button
+            android:id="@+id/btn_main_form_valid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:text="@string/btn_form_valid"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>
